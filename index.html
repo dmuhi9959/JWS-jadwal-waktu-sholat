@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Jadwal Sholat</title>
+<style> ... </style>
+</head>
+<body>
+  <!-- Layar utama -->
+  <div id="screen">
+    <!-- Header -->
+    <header>
+      <div class="date-box">
+        <div id="tanggalMasehi">...</div>
+        <div id="tanggalHijriah">...</div>
+      </div>
+      <div class="mosque-box">
+        <div class="mosque-icon">🕌</div> (or SVG)
+        <div>
+          <h1 id="namaMasjid">MASJID BAITURRAHMAN</h1>
+          <p id="alamatMasjid">Jl. Raya Janti, Banguntapan, Bantul</p>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Konten tengah -->
+    <main>
+      <section class="left">
+        <div class="clock" id="jam">14:11</div>
+        <div class="countdown" id="countdownBox">Ashar - 00:34:36</div>
+        <div class="ayat">
+          <p id="ayatText">...</p>
+          <p id="ayatSource">Q.S. Al-Baqarah [2]: 155</p>
+        </div>
+      </section>
+      <section class="media">
+        <div id="slideshow"><img id="slideImg">... dots ...</div>
+        <div id="youtubeFrame"></div>
+      </section>
+    </main>
+    
+    <!-- Jadwal sholat -->
+    <section class="prayer-row" id="prayerRow"> 8 cards </section>
+    
+    <!-- Running text -->
+    <div class="marquee"><span id="runningText">...</span></div>
+  </div>
+  
+  <!-- Tombol gear -->
+  <button id="btnSetting">⚙</button>
+  
+  <!-- Panel admin -->
+  <div id="adminOverlay"> form ... </div>
+  
+  <script> ... </script>
+</body>
+</html>
